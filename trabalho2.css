@@ -10,17 +10,16 @@ ul {
 
 :root {
     --cor-primaria: #171738;
-    --cor-secundaria: #2e1760;
-    --cor-terciaria: #3423a6;
+    --cor-secundaria: #E6E6E6;
+    --cor-terciaria: #D5A021;
     --cor-quaternaria: #7180b9;
-    --cor-quintenaria: #dff3e4;
+    --cor-quintenaria: #171738;
     --cor-sextanaria: #bc96e6;
 }
 
 body {
     background-color: var(--cor-secundaria);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 4px;
     color: var(--cor-primaria);
 }
 
@@ -28,19 +27,18 @@ h1 {
     text-align: center;
     font-size: 40px;
     background-color: var(--cor-primaria);
-    color: var(--cor-quintenaria);
+    color: var(--cor-secundaria);
 }
 
 h2 {
     background-color: var(--cor-primaria);
-    color: var(--cor-quintenaria);
+    color: var(--cor-secundaria);
     text-align: center;
     padding: 10px;
-    border-radius: 10px;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 50%;
-    margin: 0px;
-    margin-left: 25%;
+    
+   
 
 
 }
@@ -81,7 +79,7 @@ h6 {
 p {
     text-align: center;
     font-size: 20px;
-    background-color: var(--cor-secundaria);
+    
     color: var(--cor-quintenaria);
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -93,26 +91,28 @@ p {
 a {
     text-align: center;
     font-size: 20px;
-    background-color: var(--cor-secundaria);
+    text-decoration: none;
     color: var(--cor-quintenaria);
 }
 
 header {
     background-color: var(--cor-terciaria);
-    color: var(--cor-quintenaria);
+    color: var(--cor-secundaria);
     text-align: center;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+header a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
 a.titulo {
     background-color: var(--cor-terciaria);
 }
 
 a:hover {
-    color: var(--cor-sextanaria);
+    color: var(--cor-quaternaria);
     transition: 0.8s;
 }
 
@@ -121,10 +121,10 @@ li {
     color: var(--cor-quintenaria);
     text-align: center;
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     margin-left: 25%;
     padding: 10px;
+    list-style: none;
+    border-top: #171738 solid 3px;
 }
